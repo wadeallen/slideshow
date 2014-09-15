@@ -740,23 +740,23 @@
                             api.goto(song4_step);
                             break;
                     case 53: // 5
-                            var song5_step = document.getElementById('song5 ');
+                            var song5_step = document.getElementById('song5');
                             api.goto(song5_step);
                             break;
                     case 54: // 6
-                            var song6_step = document.getElementById('song6 ');
+                            var song6_step = document.getElementById('song6');
                             api.goto(song6_step);
                             break;
                     case 55: // 7
-                            var song7_step = document.getElementById('song7 ');
+                            var song7_step = document.getElementById('song7');
                             api.goto(song7_step);
                             break;
                     case 56: // 8
-                            var song8_step = document.getElementById('song8 ');
+                            var song8_step = document.getElementById('song8');
                             api.goto(song8_step);
                             break;
                     case 57: // 9
-                            var song9_step = document.getElementById('song9 ');
+                            var song9_step = document.getElementById('song9');
                             api.goto(song9_step);
                             break;
                     case 190: // period key
