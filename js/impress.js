@@ -702,7 +702,7 @@
         //   as another way to moving to next step... And yes, I know that for the sake of
         //   consistency I should add [shift+tab] as opposite action...
         document.addEventListener("keyup", function ( event ) {
-            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40 ) || event.keyCode === 78 || event.keyCode === 80 || event.keyCode === 48 || event.keyCode === 83 || event.keyCode === 49 || event.keyCode === 50 || event.keyCode === 51 || event.keyCode === 52 || event.keyCode === 66 || event.keyCode === 68 || event.keyCode === 190 ) {
+            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40 ) || event.keyCode === 78 || event.keyCode === 80 || event.keyCode === 48 || event.keyCode === 83 || event.keyCode === 49 || event.keyCode === 50 || event.keyCode === 51 || event.keyCode === 52 || event.keyCode === 53 || event.keyCode === 54 || event.keyCode === 55 || event.keyCode === 56 ||  event.keyCode === 57 || event.keyCode === 66 || event.keyCode === 68 || event.keyCode === 190 ) {
                 switch( event.keyCode ) {
                     case 33: // pg up
                     case 37: // left
@@ -738,6 +738,26 @@
                     case 52: // 4
                             var song4_step = document.getElementById('song4');
                             api.goto(song4_step);
+                            break;
+                    case 53: // 5
+                            var song5_step = document.getElementById('song5 ');
+                            api.goto(song5_step);
+                            break;
+                    case 54: // 6
+                            var song6_step = document.getElementById('song6 ');
+                            api.goto(song6_step);
+                            break;
+                    case 55: // 7
+                            var song7_step = document.getElementById('song7 ');
+                            api.goto(song7_step);
+                            break;
+                    case 56: // 8
+                            var song8_step = document.getElementById('song8 ');
+                            api.goto(song8_step);
+                            break;
+                    case 57: // 9
+                            var song9_step = document.getElementById('song9 ');
+                            api.goto(song9_step);
                             break;
                     case 190: // period key
                             var blank_step = document.getElementById('blank');
