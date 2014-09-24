@@ -43,6 +43,11 @@ body{
     padding: 0px;
 }
 
+.first-light {
+    width: 2000px;
+    padding: 0px;
+}
+
 .song {
     width: 1300px;
     padding-top: 10px;
@@ -56,7 +61,7 @@ body{
      width: 1280px;
 }
 
-.step:not(.active) { opacity: .5; }
+.step:not(.active) { opacity: .3; }
 .step.hide:not(.active) { opacity: 0; }
 .step.first:not(.active) { opacity: 1; }
 
