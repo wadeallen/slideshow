@@ -702,7 +702,7 @@
         //   as another way to moving to next step... And yes, I know that for the sake of
         //   consistency I should add [shift+tab] as opposite action...
         document.addEventListener("keyup", function ( event ) {
-            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40 ) || event.keyCode === 78 || event.keyCode === 80 || event.keyCode === 48 || event.keyCode === 83 || event.keyCode === 49 || event.keyCode === 50 || event.keyCode === 51 || event.keyCode === 52 || event.keyCode === 53 || event.keyCode === 54 || event.keyCode === 55 || event.keyCode === 56 ||  event.keyCode === 57 || event.keyCode === 66 || event.keyCode === 68 || event.keyCode === 190 || event.keyCode === 84 ) {
+            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40 ) || event.keyCode === 78 || event.keyCode === 80 || event.keyCode === 48 || event.keyCode === 83 || event.keyCode === 49 || event.keyCode === 50 || event.keyCode === 51 || event.keyCode === 52 || event.keyCode === 53 || event.keyCode === 54 || event.keyCode === 55 || event.keyCode === 56 ||  event.keyCode === 57 || event.keyCode === 66 || event.keyCode === 68 || event.keyCode === 190 || event.keyCode === 84 || event.keyCode === 65 ) {
                 switch( event.keyCode ) {
                     case 33: // pg up
                     case 37: // left
@@ -770,6 +770,10 @@
                     case 84: // letter t
                             var songT_step = document.getElementById('songT');
                             api.goto(songT_step);
+                            break;
+                    case 65: // letter a
+                            var presentation_step = document.getElementById('presentation');
+                            api.goto(presentation_step);
                             break;
                 }
                 
