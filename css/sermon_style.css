@@ -13,6 +13,11 @@
     src: url('fonts/ExpletusSans-Regular.ttf');
 }
 
+@font-face{
+    font-family: Arvo;
+    src: url('fonts/Arvo-Regular.ttf');
+}
+
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body{      
@@ -62,6 +67,18 @@ body{
     margin: 0px;
 }
 
+.wisdom {
+    font-family: Arvo;
+}
+
+.small {
+    font-family: ExpletusSans;
+    font-size: 60px;
+    line-height: 1em;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
 .video {
      padding: 0px;
      width: 1280px;
@@ -69,7 +86,7 @@ body{
 
 .step:not(.active) { opacity: .3; }
 .step.hide:not(.active) { opacity: 0; }
-.step.first:not(.active) { opacity: .3; }
+.step.first:not(.active) { opacity: 1; }
 
 .slide{
     display: block;    
