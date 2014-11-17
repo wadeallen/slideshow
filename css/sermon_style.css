@@ -74,6 +74,12 @@ body{
 
 .point {
     font-family: Montserrat-Regular;
+    color: #f8e094;
+}
+
+.text {
+    font-family: ExpletusSans;
+    color: #f8e094;
 }
 
 .small {
@@ -91,7 +97,8 @@ body{
 
 .step:not(.active) { opacity: .3; }
 .step.hide:not(.active) { opacity: 0; }
-.step.first:not(.active) { opacity: 1; }
+.step.first:not(.active) { opacity: .6; } 
+/* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
     display: block;    
