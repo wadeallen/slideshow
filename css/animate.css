@@ -1607,6 +1607,7 @@
 }
 
 .bounceIn {
+	opacity: 1;
 	-webkit-animation-name: bounceIn;
 	-moz-animation-name: bounceIn;
 	-o-animation-name: bounceIn;

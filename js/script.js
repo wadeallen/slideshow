@@ -5,13 +5,13 @@ $(function() {
     //scripture
 
 	window.addEventListener('impress:stepenter', function() {
-	  $('.active em').addClass('animated tada');
+	  $('.active em').addClass('animated bounceIn');
 	});
 	window.addEventListener('impress:stepenter', function() {
-	  $('.past em').removeClass('animated tada');
+	  $('.past em').removeClass('animated bounceIn');
 	});
 	window.addEventListener('impress:stepenter', function() {
-	  $('.future em').removeClass('animated tada');
+	  $('.future em').removeClass('animated bounceIn');
 	});
 
 	//ruby script
