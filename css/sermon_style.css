@@ -28,9 +28,9 @@
 body{      
     font-family: DroidSans;    
     min-height: 740px;   
-    color: #252224;
+    color: #FFFFFF;
     
-    background-color: #252224;
+    background-color: #000000;
    /* background-image:url("../images/light-wood.jpg");*/
     
     -webkit-font-smoothing: antialiased;
@@ -184,7 +184,7 @@ body{
 }
 
 em {
-    color: #252224;
+    color: #FFFFFF;
     font-size: 40pt;
     opacity: 0;
 }
