@@ -82,6 +82,10 @@ body{
     color: #f8e094;
 }
 
+.dark {
+    color: #330033;
+}
+
 .small {
     font-family: ExpletusSans;
     font-size: 60px;
@@ -184,10 +188,10 @@ body{
 }
 
 em {
-    color: #FFFFFF;
     font-size: 40pt;
     opacity: 0;
 }
+
 
 .lv0_indent{
     margin-left: 30px;

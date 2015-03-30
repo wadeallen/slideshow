@@ -14,6 +14,7 @@ $(function() {
 	  $('.future em').removeClass('animated bounceIn');
 	});
 
+
 	//ruby script
 
 	$('.ruby').css('opacity',0.1);
