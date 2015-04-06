@@ -2,6 +2,15 @@ $(function() {
 
     impress().init();
 
+    // play video
+
+	window.addEventListener('impress:stepenter', function() {
+	  $('.active video.video').trigger("play");
+	});
+	window.addEventListener('impress:stepenter', function() {
+	  $('.past video.video').trigger("pause");
+	});
+
     //scripture
 
 	window.addEventListener('impress:stepenter', function() {
