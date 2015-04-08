@@ -39,7 +39,11 @@ body{
 
 /* Defaults */
 
-.step{
+h1 {
+    text-align: center;
+}
+
+.step {
     width: 1100px;
     padding: 20px;
 	font-weight: bold;
@@ -327,3 +331,5 @@ a:link:hover {
 }
 
 /* EOF Fallback */
+
+
