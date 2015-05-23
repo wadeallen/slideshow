@@ -40,7 +40,8 @@ body{
 /* Defaults */
 
 h1 {
-    /*text-align: center;*/
+    text-align: center;
+    color: #ff9933;
 }
 
 .step {
