@@ -87,8 +87,8 @@ h1 {
     color: #f8e094;
 }
 
-.dark {
-    color: #330033;
+.dark h1 {
+    color: #990000;
 }
 
 .small {
@@ -106,7 +106,7 @@ h1 {
 
 .step:not(.active) { opacity: .3; }
 .step.hide:not(.active) { opacity: 0; }
-.step.first:not(.active) { opacity: .7; } 
+.step.first:not(.active) { opacity: 1; } 
 /* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
