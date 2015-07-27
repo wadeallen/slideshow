@@ -25,7 +25,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
-body{      
+body {      
     font-family: DroidSans;    
     min-height: 740px;   
     color: #FFFFFF;
@@ -104,9 +104,15 @@ h1 {
      width: 1280px;
 }
 
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .step:not(.active) { opacity: .3; }
 .step.hide:not(.active) { opacity: 0; }
-.step.first:not(.active) { opacity: 1; } 
+.step.first:not(.active) { opacity: .3; } 
 /* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
