@@ -110,9 +110,14 @@ h1 {
     margin-right: auto;
 }
 
+/* this is for the slide text on inactive slides*/
 .step:not(.active) { opacity: .3; }
+
+/* this hides elemements when they are not in an active slide*/
 .step.hide:not(.active) { opacity: 0; }
-.step.first:not(.active) { opacity: .3; } 
+
+/* this is for the opacity of all slides that are not the first slide*/
+.step.first:not(.active) { opacity: .3; }
 /* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
