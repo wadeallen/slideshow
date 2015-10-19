@@ -117,7 +117,7 @@ h1 {
 .step.hide:not(.active) { opacity: 0; }
 
 /* this is for the opacity of all slides that are not the first slide*/
-.step.first:not(.active) { opacity: .8; }
+.step.first:not(.active) { opacity: .6; }
 /* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
