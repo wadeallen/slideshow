@@ -28,8 +28,7 @@
 body {      
     font-family: DroidSans;    
     min-height: 740px;   
-    color: #292929;
-    /* color: #FFFFF; */
+    color: #FFFFFF;
     
     background-color: #000000;
    /* background-image:url("../images/light-wood.jpg");*/
@@ -118,7 +117,7 @@ h1 {
 .step.hide:not(.active) { opacity: 0; }
 
 /* this is for the opacity of all slides that are not the first slide*/
-.step.first:not(.active) { opacity: 1; }
+.step.first:not(.active) { opacity: .7; }
 /* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
