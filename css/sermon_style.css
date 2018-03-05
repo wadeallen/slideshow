@@ -28,8 +28,8 @@
 body {      
     font-family: DroidSans;    
     min-height: 740px;   
-    /* color: #FFFFFF; */
-    color: #000000;
+    color: #FFFFFF;
+    /* color: #000000; */
     
     background-color: #000000;
    /* background-image:url("../images/light-wood.jpg");*/
