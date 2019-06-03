@@ -25,15 +25,15 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
-body {      
-    font-family: DroidSans;    
-    min-height: 740px;   
+body {
+    font-family: DroidSans;
+    min-height: 740px;
     color: #FFFFFF;
     /* color: #000000; */
-    
+
     background-color: #000000;
    /* background-image:url("../images/light-wood.jpg");*/
-    
+
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -118,11 +118,11 @@ h1 {
 .step.hide:not(.active) { opacity: 0; }
 
 /* this is for the opacity of all slides that are not the first slide*/
-.step.first:not(.active) { opacity: .3; }
+.step.first:not(.active) { opacity: .7; }
 /* 0 is full black and 1 is no opacity. Adjust to .3 or .7 depending on how dark you want it*/
 
 .slide{
-    display: block;    
+    display: block;
     width: 1000px;
     height: 700px;
     font-family: DroidSans;
@@ -131,8 +131,8 @@ h1 {
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
-    position: relative;  
-    
+    position: relative;
+
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -197,7 +197,7 @@ h1 {
 }
 
 .slide-content{
-    /*height: 473px;*/    
+    /*height: 473px;*/
     font-size: 30pt;
     line-height: 40pt;
     padding: 15px 40px;
@@ -305,7 +305,7 @@ a:link:hover {
 .fallback-message {
     font-family: DroidSans;
     line-height: 1.3;
-    
+
     display: none;
     width: 780px;
     padding: 10px 10px 0;
@@ -325,7 +325,7 @@ a:link:hover {
 .impress-not-supported .slide{
     background: #333;
     border: #666 1px solid;
-    
+
     -webkit-box-shadow: 0 4px 16px rgba(255,255,255,0.5);
     -moz-box-shadow: 0 4px 16px rgba(255,255,255,0.5);
     box-shadow: 0 4px 16px rgba(255,255,255,0.5);
